@@ -24,7 +24,7 @@ def run_server(descriptor_file = "to_desk"):
 
 if __name__ == "__main__":
     try:
-        print("Для остановки сервера нажмите Ctrl + C или Ctrl + Z")
+        print("Для остановки сервера нажмите Ctrl + C")
         run_server()
     except KeyboardInterrupt:
         print("\nСервер остановлен.")
