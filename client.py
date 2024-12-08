@@ -35,7 +35,7 @@ def run_client(descriptor_file = "to_desk"):
 
 if __name__ == "__main__":
     try:
-        print("Для остановки работы клиента нажмите Ctrl + C или Ctrl + Z")
+        print("Для остановки работы клиента нажмите Ctrl + C")
         run_client()
     except KeyboardInterrupt:
         print("\nКлиент остановлен.")
